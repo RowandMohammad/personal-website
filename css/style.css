@@ -1,7 +1,7 @@
 /* ------ Website Theme ------ */
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #27ae60;
+  --color-primary: #0a192f;
+  --color-secondary: #64ffda;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -65,25 +65,21 @@ section {
 .sec1 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: var(--color-primary);
 }
 
 .sec2 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: slateblue;
 }
 
 .sec3 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: darkcyan;
 }
 
 .sec4 {
   display: none;
   transform: translateY(0) scale(1);
-  background-color: midnightblue;
 }
 
 .active {
@@ -222,6 +218,7 @@ section {
 
 .main-btn .btn-text {
   padding: 0 2rem;
+  color: var(--color-secondary);
 }
 
 .main-btn .btn-icon {
@@ -262,4 +259,13 @@ section {
   font-size: 6.3rem;
 }
 
+.header-content .right-header p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+}
+
+.about-container p {
+  margin: 1.5rem 0;
+  line-height: 2rem;
+}
 /*Indepenent Components*/
